@@ -7,7 +7,7 @@ on:
   pull_request_target: 
     types: [assigned, opened, synchronize, reopened]
     
-  pull_request_review_comment:
+  issue_comment:
     types: [created, edited]
 
   # Allows you to run this workflow manually from the Actions tab
